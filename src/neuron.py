@@ -1,15 +1,14 @@
 import streamlit as st
 
-st.image('src/images/neuron.jpg')
+st.image('images/neuron.jpg')
 
 st.title('¡Hola Neurona!')
 
 tab1, tab2, tab3 = st.tabs(['Una entrada', 'Dos entradas', 'Tres entradas y sesgo'])
 
 with tab1:
-    st.title('Una neurona con una entrada y un peso')
-
-    peso = st.slider('Peso', 0.0, 5.0)
+    st.markdown('Peso $w_0$')
+    peso = st.slider('', 0.0, 5.0)
     input_data = st.number_input('Introduzca el valor de la entrada')
 
     calculate = input_data * peso
