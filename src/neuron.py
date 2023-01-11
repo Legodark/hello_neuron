@@ -24,14 +24,14 @@ with tab2:
         peso_1 = st.slider('Selecciona un valor:', 0.0, 5.0, key='peso_1')
 
         st.markdown('Entrada $x_0$')
-        input_data_1 = st.number_input('Selecciona un valor:', key='input_data_1')
+        input_data_1 = st.number_input('Introduce un valor:', key='input_data_1')
 
     with col2:
         st.markdown('Peso $w_1$')
         peso_2 = st.slider('Selecciona un valor:', 0.0, 5.0, key='peso_2')
 
         st.markdown('Entrada $x_1$')
-        input_data_2 = st.number_input('Selecciona un valor:', key='input_data_2')
+        input_data_2 = st.number_input('Introduce un valor:', key='input_data_2')
 
     
     calculate = input_data_1 * peso_1 + input_data_2 * peso_2
@@ -47,21 +47,21 @@ with tab3:
         peso_1 = st.slider('Selecciona un valor:', 0.0, 5.0, key='peso_3')
 
         st.markdown('Entrada $x_0$')
-        input_data_1 = st.number_input('Selecciona un valor:', key='input_data_3')
+        input_data_1 = st.number_input('Introduce un valor:', key='input_data_3')
 
     with col2:
         st.markdown('Peso $w_1$')
         peso_2 = st.slider('Selecciona un valor:', 0.0, 5.0, key='peso_4')
 
         st.markdown('Entrada $x_1$')
-        input_data_2 = st.number_input('Selecciona un valor:', key='input_data_4')
+        input_data_2 = st.number_input('Introduce un valor:', key='input_data_4')
 
     with col3:
         st.markdown('Peso $w_2$')
         peso_3 = st.slider('Selecciona un valor:', 0.0, 5.0, key='peso_6')
 
         st.markdown('Entrada $x_2$')
-        input_data_3 = st.number_input('Selecciona un valor:', key='input_data_6')
+        input_data_3 = st.number_input('Introduce un valor:', key='input_data_6')
 
     sesgo = st.number_input('Introduzca el valor del sesgo')
 
