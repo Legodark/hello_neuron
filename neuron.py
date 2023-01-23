@@ -9,7 +9,8 @@ tab1, tab2, tab3 = st.tabs(['Una entrada', 'Dos entradas', 'Tres entradas y sesg
 with tab1:
     st.markdown('Peso $w_0$')
     peso = st.slider('Selecciona un valor:', 0.0, 5.0)
-    input_data = st.number_input('Introduzca el valor de la entrada')
+    st.markdown('Entrada $x_0$')
+    input_data = st.number_input('Introduzca un valor')
 
     calculate = input_data * peso
 
