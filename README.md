@@ -5,7 +5,7 @@ Este *mini-proyecto* es útil para comprender el funcionamiento básico de una n
 
 ## Aplicación
 
-Puedes probar la aplicación en el siguiente enlace: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://legodark-hello-neuron-srcneuron-sioafc.streamlit.app)
+Puedes probar la aplicación en el siguiente enlace: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://legodark-hello-neuron-neuron-ma7h6p.streamlit.app)
 
 ### Tecnologías usadas:
 
